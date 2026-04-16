@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Real Estate</title>
+    <meta name="description" content="Premium real estate listings and luxury homes.">
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Header -->
+    <header id="main-header" class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="#">
+                    <!-- Transparent Logo via Text styling mimicking a logo -->
+                    <h1 class="logo-text">LUXE<span>.</span></h1>
+                </a>
+            </div>
+            <nav id="main-nav" class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#properties" class="nav-link">Properties</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content fade-in-element">
+                <h2 class="hero-title">Find Your Perfect Luxury Home</h2>
+                <p class="hero-subtitle">Discover premium properties in the world's most exclusive neighborhoods.</p>
+                <div class="hero-cta">
+                    <a href="#properties" class="btn">Explore Properties</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Properties Section -->
+        <section id="properties" class="properties section-padding">
+            <div class="container fade-in-element">
+                <h2 class="section-title">Featured Properties</h2>
+                <div class="properties-grid">
+                    <!-- Property 1 -->
+                    <div class="property-card">
+                        <div class="property-image-container">
+                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Villa" class="property-image">
+                            <span class="property-tag">For Sale</span>
+                        </div>
+                        <div class="property-details">
+                            <h3 class="property-price">$4,500,000</h3>
+                            <h4 class="property-title">Modern Glass Villa</h4>
+                            <p class="property-location">Beverly Hills, CA</p>
+                        </div>
+                    </div>
+                    <!-- Property 2 -->
+                    <div class="property-card">
+                        <div class="property-image-container">
+                            <img src="penthouse.png" alt="Penthouse Suite" class="property-image">
+                            <span class="property-tag">For Sale</span>
+                        </div>
+                        <div class="property-details">
+                            <h3 class="property-price">$2,250,000</h3>
+                            <h4 class="property-title">Skyline Penthouse</h4>
+                            <p class="property-location">Manhattan, NY</p>
+                        </div>
+                    </div>
+                    <!-- Property 3 -->
+                    <div class="property-card">
+                        <div class="property-image-container">
+                            <img src="coastal.png" alt="Coastal Estate" class="property-image">
+                            <span class="property-tag">For Rent</span>
+                        </div>
+                        <div class="property-details">
+                            <h3 class="property-price">$15,000 / mo</h3>
+                            <h4 class="property-title">Coastal Ocean Estate</h4>
+                            <p class="property-location">Malibu, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container fade-in-element">
+                <h2 class="section-title">Our Expertise</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3 class="service-title">Property Management</h3>
+                        <p class="service-desc">We offer end-to-end management for luxury estates, ensuring peace of mind.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="service-title">Buying & Selling</h3>
+                        <p class="service-desc">Exclusive access to off-market listings and premium buyer representation.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="service-title">Consulting</h3>
+                        <p class="service-desc">Strategic real estate investment consulting for high-net-worth individuals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer section-padding fade-in-element">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h2 class="logo-text">LUXE<span>.</span></h2>
+                <p class="footer-desc">Redefining luxury real estate experiences with unparalleled service and exclusive listings.</p>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-links">
+                    <li>Email: contact@luxerealestate.com</li>
+                    <li>Phone: +1 (800) 123-4567</li>
+                    <li>Location: 100 Luxury Way, CA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Luxe Real Estate. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
